@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "bbb57492c5f71d11817923112dad8c33",
+    "content-hash": "8305f1f02cab0e2298f287c67fd0f16b",
     "packages": [
         {
             "name": "brick/math",
@@ -3300,22 +3300,23 @@
         },
         {
             "name": "rogelio1502/ef-orchid-package",
-            "version": "1.0.54",
+            "version": "dev-main",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rogelio1502/ef-orchid-package.git",
-                "reference": "96b1b6513469a9e69c8ae513ede33d4b0e64e80b"
+                "reference": "19670840221091df445f629deb1edc0976879d45"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rogelio1502/ef-orchid-package/zipball/96b1b6513469a9e69c8ae513ede33d4b0e64e80b",
-                "reference": "96b1b6513469a9e69c8ae513ede33d4b0e64e80b",
+                "url": "https://api.github.com/repos/rogelio1502/ef-orchid-package/zipball/19670840221091df445f629deb1edc0976879d45",
+                "reference": "19670840221091df445f629deb1edc0976879d45",
                 "shasum": ""
             },
             "require": {
                 "orchid/platform": "^13.9",
                 "php": ">=8.0"
             },
+            "default-branch": true,
             "type": "library",
             "extra": {
                 "laravel": {
@@ -3343,9 +3344,9 @@
             "description": "EF Orchid Package",
             "support": {
                 "issues": "https://github.com/rogelio1502/ef-orchid-package/issues",
-                "source": "https://github.com/rogelio1502/ef-orchid-package/tree/1.0.54"
+                "source": "https://github.com/rogelio1502/ef-orchid-package/tree/main"
             },
-            "time": "2023-04-05T19:56:12+00:00"
+            "time": "2023-04-21T00:02:45+00:00"
         },
         {
             "name": "symfony/console",
@@ -8492,12 +8493,14 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "rogelio1502/ef-orchid-package": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
         "php": "^8.0.2"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.3.0"
+    "plugin-api-version": "2.2.0"
 }
