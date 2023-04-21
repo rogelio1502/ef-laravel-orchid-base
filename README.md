@@ -27,5 +27,5 @@ por
 
 ### Enlaces de interés
 
-* Laravel Orchid: `https://orchid.software/en/docs/`
-* Repositorio del paquete de componentes `https://github.com/rogelio1502/ef-orchid-package `
+* [Laravel Orchid](https://orchid.software/en/docs/)
+* [Repositorio del paquete de componentes](https://github.com/rogelio1502/ef-orchid-package)
